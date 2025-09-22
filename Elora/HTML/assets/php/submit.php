@@ -23,7 +23,7 @@ if(isset($_POST['name']) && isset($_POST['email']) && isset($_POST['subject']) &
 	$mail->Password="Your App Password"; // Your app password
 
 	$mail->setFrom($email, $name);  
-	$mail->addAddress("your_email@gmail.com", "your name"); // (Your Mail) An email address that will receive the email with the output of the form
+	$mail->addAddress("jonathanvasquez842@gmail.com", "Jonathan Rivera"); // (Your Mail) An email address that will receive the email with the output of the form
 
 	$mail->IsHTML(true); // Set email format to HTML
 
