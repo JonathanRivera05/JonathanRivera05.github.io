@@ -231,7 +231,7 @@ header #menu-btn:hover{
 }
 
 .home .box-container{
-    background-color: ;
+    background-color: transparent;
     min-height: 100vh;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -251,12 +251,12 @@ header #menu-btn:hover{
     text-align: center;
     -webkit-box-flex: 1;
       -ms-flex: 1 1 40rem;
-          flex: 1 1 40rem;
+          flex: 1 1 50rem;
 
 }
 
 .home .image:hover {
-    transform: scale(1.1);
+    transform: scale(1.15);
 }
 
 .home .image img{
@@ -264,7 +264,8 @@ header #menu-btn:hover{
     width: 45rem;
     border-radius: 50% 50% 50% 50% / 30% 30% 70% 70% ;
     object-fit:cover;
-    border: 0.5rem solid var(--purple);
+    border: 0.6rem solid var(--purple);
+    object-position: center 20%; /* El primer valor es horizontal, el segundo vertical */
 }
 
 .home .content{
@@ -490,43 +491,43 @@ header #menu-btn:hover{
 }
 
  .skill-item.item1 .box:nth-child(1) .progress-bar span{ 
-    width:75%; /* html progress */
+    width:95%; /* Power bi progress */
 }
 
  .skill-item.item1 .box:nth-child(2) .progress-bar span{
-    width:60%; /* css progress */
+    width:85%; /* AI progress */
 }
 
  .skill-item.item1 .box:nth-child(3) .progress-bar span{
-    width:55%; /* javascript progress */
-}
-
- .skill-item.item1 .box:nth-child(4) .progress-bar span{
-    width:75%; /* GitHub progress */
-}
-
- .skill-item.item1 .box:nth-child(5) .progress-bar span{
-    width:75%; /* IA progress */
-}
-
-.skill-item.item2 .box:nth-child(1) .progress-bar span{
     width:80%; /* Python progress */
 }
 
- .skill-item.item2 .box:nth-child(2) .progress-bar span{
-    width:65%; /* Bootstrap progress */
-}
-
- .skill-item.item2 .box:nth-child(3) .progress-bar span{
-    width:80%; /* PHP progress */
-}
-
- .skill-item.item2 .box:nth-child(4) .progress-bar span{
+ .skill-item.item1 .box:nth-child(4) .progress-bar span{
     width:80%; /* SQL progress */
 }
 
+ .skill-item.item1 .box:nth-child(5) .progress-bar span{
+    width:85%; /* Github progress */
+}
+
+.skill-item.item2 .box:nth-child(1) .progress-bar span{
+    width:85%; /* HTML progress */
+}
+
+ .skill-item.item2 .box:nth-child(2) .progress-bar span{
+    width:85%; /* CSS progress */
+}
+
+ .skill-item.item2 .box:nth-child(3) .progress-bar span{
+    width:70%; /* Bootstrap progress */
+}
+
+ .skill-item.item2 .box:nth-child(4) .progress-bar span{
+    width:80%; /* PHP progress */
+}
+
  .skill-item.item2 .box:nth-child(5) .progress-bar span{
-    width:75%; /* Power BI progress */
+    width:60%; /* JavaScript progress */
 }
 
 /*--------------------- 5- About Area CSS (End) ---------------------*/
